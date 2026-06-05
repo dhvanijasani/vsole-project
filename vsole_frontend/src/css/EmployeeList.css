@@ -1,0 +1,122 @@
+.employee-table-card {
+    margin-top: 30px;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .1);
+}
+
+.employee-table-card h2 {
+    margin-bottom: 20px;
+    color: #1e293b;
+}
+
+.employee-table-card table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-table-card th {
+    background: #1e293b;
+    color: white;
+    padding: 15px;
+    text-align: left;
+}
+
+.employee-table-card td {
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.employee-table-card tr:hover {
+    background: #f8fafc;
+}
+
+.search-box {
+    width: 300px;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background: #f1f5f9;
+    font-size: 15px;
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.edit-modal{
+    width: 400px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.edit-modal h2{
+    text-align: center;
+    color: #2a5298;
+}
+
+.edit-modal input,
+.edit-modal select{
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+.modal-buttons{
+    display: flex;
+    gap: 10px;
+}
+
+.save-btn{
+    flex: 1;
+    background: #2a5298;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.cancel-btn{
+    flex: 1;
+    background: #e74c3c;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.active-btn {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.inactive-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}

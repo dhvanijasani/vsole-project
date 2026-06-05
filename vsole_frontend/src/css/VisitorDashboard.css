@@ -1,0 +1,133 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dashboard {
+    display: flex;
+    min-height: 100vh; 
+    align-items: flex-start; 
+    background: #f4f6f9;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+} */
+.visitor-dashboard{
+    padding: 25px;
+    background: #f4f7fc;
+    min-height: 100vh;
+}
+
+.visitor-banner{
+    background: linear-gradient(135deg,#1e3c72,#2a5298);
+    color: white;
+    padding: 30px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.visitor-banner h1{
+    margin: 0;
+    font-size: 32px;
+}
+
+.visitor-banner p{
+    margin-top: 10px;
+    opacity: 0.9;
+}
+
+.live-clock{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.visitor-cards{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.visitor-card{
+    background: white;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+.visitor-card:hover{
+    transform: translateY(-5px);
+}
+
+.card-icon{
+    font-size: 35px;
+    color: #2a5298;
+    margin-bottom: 15px;
+}
+
+.visitor-card h3{
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.visitor-card p{
+    color: #666;
+}
+
+.visitor-info-box,.instruction-box{
+    background: white;
+    padding: 25px;
+    border-radius: 18px;
+    box-shadow:
+    0 4px 12px rgba(0,0,0,0.08);
+    margin-bottom: 25px;
+}
+
+.visitor-info-box h2,.instruction-box h2{
+    margin-bottom: 20px;
+    color: #2a5298;
+}
+
+.info-grid{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.info-grid label{
+    font-weight: bold;
+    color: #2a5298;
+}
+
+.info-grid p{
+    margin-top: 5px;
+    color: #555;
+}
+
+.active-status{
+    color: green;
+    font-weight: bold;
+}
+
+.instruction-box ul{
+    padding-left: 20px;
+}
+
+.instruction-box li{
+    margin-bottom: 10px;
+    color: #555;
+}
