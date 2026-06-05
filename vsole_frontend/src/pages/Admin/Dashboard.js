@@ -11,6 +11,7 @@ function Dashboard() {
         visitors: 0,
     });
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         loadData();
     }, []);

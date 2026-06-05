@@ -15,6 +15,7 @@ function Topbar() {
 
     const [time, setTime] = useState("");
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         const interval = setInterval(() => {
             const currentTime = new Date().toLocaleTimeString();

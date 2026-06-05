@@ -9,6 +9,7 @@ function AttendanceMonitor() {
     const [attendance, setAttendance] = useState([]);
     const [search, setSearch] = useState("");
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         loadData();
     }, []);

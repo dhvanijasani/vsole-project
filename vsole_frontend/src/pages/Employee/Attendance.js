@@ -29,6 +29,7 @@ function Attendance() {
         }
     };
 
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         loadData();
     }, []);

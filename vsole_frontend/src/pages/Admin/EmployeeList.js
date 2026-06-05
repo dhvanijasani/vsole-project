@@ -19,6 +19,7 @@ function EmployeeList() {
         role: ""
     });
     const [search, setSearch] = useState("");
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {
         loadEmployees();
     }, []);
